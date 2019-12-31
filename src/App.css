@@ -1,5 +1,62 @@
+.navbar {
+  background: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-item a {
+  background: pink;
+  display: block;
+  padding: 15px 10px;
+}
+
+.art-gallary {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-gap: 1em;
+  
+  align-content: center;
+  justify-content: center;
+  
+  /* grid-auto-flow: row; */
+}
+
+/* .art {
+  grid-column: span 2;
+  
+  @media (min-width: 52em) {
+    grid-column: auto;
+    grid-row: span 2;
+    align-self: center;
+  }
+} */
+
+.art {
+  width: 100%;
+}
+
+
+.home {
+  display: grid;
+}
+
+
+
+
+
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
